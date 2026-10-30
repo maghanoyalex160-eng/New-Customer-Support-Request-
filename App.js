@@ -309,8 +309,8 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   categorySelected: {
-    backgroundColor: '#0066CC',
-    borderColor: '#0066CC',
+    backgroundColor: '#e30c0c',
+    borderColor: '#e30c0c',
   },
   categoryText: {
     fontSize: 13,
@@ -330,7 +330,7 @@ const styles = StyleSheet.create({
     borderStyle: 'dashed',
   },
   uploadButtonText: {
-    color: '#0066CC',
+    color: '#570ce3',
     fontWeight: '600',
     fontSize: 14,
   },
