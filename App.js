@@ -330,7 +330,7 @@ const styles = StyleSheet.create({
     borderStyle: 'dashed',
   },
   uploadButtonText: {
-    color: '#570ce3',
+    color: '#460ed5',
     fontWeight: '600',
     fontSize: 14,
   },
@@ -349,7 +349,7 @@ const styles = StyleSheet.create({
     padding: 4,
   },
   removeButtonText: {
-    color: '#dc2626',
+    color: '#5410f1',
     fontSize: 13,
     fontWeight: '500',
   },
