@@ -8,7 +8,7 @@ import {
   Image,
   ScrollView,
   ActivityIndicator,
-  Alert,
+  
   KeyboardAvoidingView,
   Platform,
 } from 'react-native';
@@ -35,7 +35,7 @@ export default function App() {
     // Request permission
     const permissionResult = await ImagePicker.requestMediaLibraryPermissionsAsync();
     if (!permissionResult.granted) {
-      Alert.alert('Permission Denied', 'You need to grant camera roll permissions to upload a screenshot.');
+      alert('Permission Denied', 'You need to grant camera roll permissions to upload a screenshot.');
       return;
     }
 
@@ -123,7 +123,7 @@ export default function App() {
   const handleSubmit = async () => {
     // Validation
     if (!name.trim() || !email.trim() || !message.trim()) {
-      Alert.alert('Validation Error', 'Please fill out all required text fields.');
+      alert('Validation Error', 'Please fill out all required text fields.');
       return;
     }
 
@@ -143,7 +143,7 @@ export default function App() {
       setStatusMessage('Sending support email...');
       await sendEmailWithEmailJS(imageUrl);
 
-      Alert.alert('Success!', 'Your support request has been submitted successfully.');
+      alert('Success!', 'Your support request has been submitted successfully.');
       
       // Reset Form
       setName('');
@@ -153,7 +153,7 @@ export default function App() {
       setStatusMessage('');
     } catch (error) {
       console.error(error);
-      Alert.alert('Submission Error', error.message || 'An unexpected error occurred.');
+      alert('Submission Error', error.message || 'An unexpected error occurred.');
     } finally {
       setLoading(false);
       setStatusMessage('');
