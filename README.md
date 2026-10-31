@@ -20,7 +20,7 @@ React Native and Expo.
 
 1. Clone the repository.
 
-
+https://github.com/maghanoyalex160-eng/New-Customer-Support-Request-.git
 
 2. Open the project folder.
 
@@ -46,7 +46,7 @@ EXPO_PUBLIC_EMAILJS_PUBLIC_KEY=
 
 ## GitHub Repository
 
-https://github.com/USERNAME/REPOSITORY.git
+https://github.com/maghanoyalex160-eng/New-Customer-Support-Request-.git
 
 ## Developers
 
