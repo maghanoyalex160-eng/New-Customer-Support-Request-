@@ -1,17 +1,55 @@
-# Customer Support Form with Cloudinary and EmailJS
+# React Native Application
 
-A React Native mobile application built with Expo that allows users to submit customer support tickets, attach screenshots via Expo Image Picker, upload images directly to Cloudinary, and dispatch notification emails with clickable screenshot URLs using EmailJS.
+## Project Members
+1. Alex Maghanoy
+2. Charles Bucao
 
-## Features
-- Interactive support form with category selection.
-- Image picker integration for selecting screenshots from phone storage.
-- Unsigned image uploads to Cloudinary returning secure public URLs.
-- Email dispatch through EmailJS REST API with formatted HTML links.
-- Loading indicators and duplicate submission prevention.
+## Project Description
+This project is a mobile application developed using
+React Native and Expo.
 
-## Setup Instructions
+## Technologies Used
+- React Native
+- Expo
+- JavaScript
+- Git and GitHub
+- EmailJs
+- Cloudinary
 
-1. **Clone the repository:**
-   ```bash
-   git clone <repository-url>
-   cd CustomerSupportApp
+## Installation
+
+1. Clone the repository.
+
+
+
+2. Open the project folder.
+
+cd REPOSITORY
+
+3. Install dependencies.
+
+npm install
+
+4. Create a .env file based on .env.example.
+
+5. Run the application.
+
+npx expo start
+
+## Environment Variables
+
+EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME=
+EXPO_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
+EXPO_PUBLIC_EMAILJS_SERVICE_ID=
+EXPO_PUBLIC_EMAILJS_TEMPLATE_ID=
+EXPO_PUBLIC_EMAILJS_PUBLIC_KEY=
+
+## GitHub Repository
+
+https://github.com/USERNAME/REPOSITORY.git
+
+## Developers
+
+Developed by:
+- Alex Maghanoy
+- Charles Bucao
